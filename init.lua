@@ -1012,8 +1012,8 @@ require('lazy').setup({
   },
 })
 
--- Auto load customr emap
-require 'custom.remap'
+-- Auto load custom config overrides
+require 'custom.config_overrides'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
