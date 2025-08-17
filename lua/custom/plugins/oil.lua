@@ -8,4 +8,7 @@ return {
   -- dependencies = { { 'echasnovski/mini.icons', opts = {} } }, -- default dependencies
   dependencies = { 'nvim-tree/nvim-web-devicons' }, -- use if you prefer nvim-web-devicons
   lazy = false,
+  keys = {
+    { '<leader>\\', '<cmd>Oil<cr>', 'Open [F]ile [T]ree (with Oil)' },
+  },
 }
